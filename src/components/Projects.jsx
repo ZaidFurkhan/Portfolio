@@ -21,7 +21,7 @@ const projects = [
         title: "MediAssist AI",
         subtitle: "AI Healthcare Assistant",
         description: "MedAssist.AI is an intelligent healthcare web application that merges predictive analytics, conversational AI, and geo-location services to simplify healthcare accessibility. It features symptom-based disease prediction, nearby specialty hospital search, appointment scheduling, and AI-generated medical insights.",
-        tags: ["React", "Python", "ML", "FastAPI"],
+        tags: ["React", "Python", "ML","PostgreSQL", "FastAPI"],
         image: "src/Images/project1.png",
         github: "https://github.com/ZaidFurkhan/MedAssist_Ai",
         demo: "https://medassistai-flax.vercel.app/"
@@ -135,9 +135,9 @@ export default function Projects() {
                     ))}
                 </div>
                 <a href="https://github.com/ZaidFurkhan">
-                <div className="m-4 p-2 gap-1 flex items-end justify-center min-w-5 text-gray-400 font-medium text:sm md:text-md hover:text-orange-700/40 cursor-pointer">
+                <div className="mt-8 p-2 gap-2 flex items-center justify-center text-gray-400 font-medium text:sm md:text-md hover:text-orange-700/40 cursor-pointer">
                     <p>Explore More</p>
-                    <ArrowUpRight className="h-5 w-auto"/>
+                    <ArrowUpRight className="h-4 w-4"/>
                 </div>
                 </a>
             </motion.div>
