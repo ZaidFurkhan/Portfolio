@@ -20,35 +20,35 @@ const projects = [
     {
         title: "MediAssist AI",
         subtitle: "AI Healthcare Assistant",
-        description: "An advanced healthcare companion that leverages AI to assist in clinical decision-making, patient tracking, and medical document analysis.",
+        description: "MedAssist.AI is an intelligent healthcare web application that merges predictive analytics, conversational AI, and geo-location services to simplify healthcare accessibility. It features symptom-based disease prediction, nearby specialty hospital search, appointment scheduling, and AI-generated medical insights.",
         tags: ["React", "Python", "ML", "FastAPI"],
-        image: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=1600&auto=format&fit=crop",
-        github: "https://github.com",
-        demo: "https://demo.com"
+        image: "src/Images/project1.png",
+        github: "https://github.com/ZaidFurkhan/MedAssist_Ai",
+        demo: "https://medassistai-flax.vercel.app/"
     },
     {
         title: "PathForge",
         subtitle: "AI Career Roadmap Generator",
         description: "An AI-powered professional development tool that generates personalized learning tracks and visual career paths based on industry skills.",
-        tags: ["React", "Node.js", "Gemini API", "TailwindCSS"],
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-        github: "https://github.com",
-        demo: "https://demo.com"
+        tags: ["React", "Node.js", "Groq API", "TailwindCSS"],
+        image: "src/Images/project2.png",
+        github: "https://github.com/ZaidFurkhan/PathForge.ai/tree/main",
+        demo: "https://path-forge-ai-one.vercel.app/"
     },
     {
-        title: "Job Hunter",
-        subtitle: "Smart Application Tracker",
-        description: "An automated tracking system with resume parsing and real-time dashboard analytics to organize and optimize the job application process.",
-        tags: ["React", "MongoDB", "Express", "Framer Motion"],
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=800&auto=format&fit=crop",
-        github: "https://github.com",
-        demo: "https://demo.com"
+        title: "CodeSkill Landing Page",
+        subtitle: "Sleek Responsive Design",
+        description: "Developed a sleek and fully responsive landing page for CodeSkill.AI using React and Tailwind CSS. The project features a modern dark-themed interface, optimized performance with Vite, and reusable component-based architecture..",
+        tags: [ "Tailwind CSS","Vite", "React", "Framer Motion"],
+        image: "src/Images/project3.png",
+        github: "https://github.com/ZaidFurkhan/landing-page",
+        demo: "https://landing-page-kx0q.onrender.com/"
     }
 ];
 
 export default function Projects() {
     return (
-        <section id="projects" className="w-full min-h-screen bg-gradient-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col items-center justify-start py-20 px-8 relative z-20 shadow-[0_30px_40px_rgba(0,0,0,0.1)]">
+        <section id="projects" className="w-full min-h-screen bg-gradient-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col gap-1 items-center justify-start py-20 px-8 relative z-20 shadow-[0_30px_40px_rgba(0,0,0,0.1)]">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -134,6 +134,12 @@ export default function Projects() {
                         </motion.div>
                     ))}
                 </div>
+                <a href="https://github.com/ZaidFurkhan">
+                <div className="m-4 p-2 gap-1 flex items-end justify-center min-w-5 text-gray-400 font-medium text:sm md:text-md hover:text-orange-700/40 cursor-pointer">
+                    <p>Explore More</p>
+                    <ArrowUpRight className="h-5 w-auto"/>
+                </div>
+                </a>
             </motion.div>
         </section>
     );

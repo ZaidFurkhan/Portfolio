@@ -5,20 +5,29 @@ const certifications = [
     {
         title: "Career Essentials in Generative AI",
         issuer: "Microsoft & LinkedIn Learning",
-        year: "2025",
+        year: "2026",
         description: "Focused on the fundamentals of Generative AI, AI-powered workflows, responsible AI concepts, and practical applications of modern AI technologies in real-world systems.",
         tags: ["Generative AI", "AI Fundamentals", "Prompting"],
-        image: "https://images.unsplash.com/photo-1677442136019-21780efad99a?q=80&w=800&auto=format&fit=crop",
-        link: "#"
+        image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        link: "https://www.linkedin.com/learning/certificates/7fc5feff9f1b85acad34312947f0a95ddc9a626003d00bee0c96a28f2327fbb6?trk=share_certificate"
     },
     {
         title: "Atlassian Agile Project Management",
         issuer: "LinkedIn Learning",
-        year: "2025",
+        year: "2026",
         description: "Learned project planning, Agile methodologies, team collaboration, Jira workflow management, sprint organization, and modern software project management practices.",
         tags: ["Jira", "Agile", "Scrum", "Collaboration", "Management"],
         image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=800&auto=format&fit=crop",
-        link: "#"
+        link: "https://www.linkedin.com/learning/certificates/45926c460d8c0959d0f13bd03897e2ee99fa0b665c5adf999462434001b79e21?trk=share_certificate"
+    },
+    {
+    title: "Node.js Essential Training",
+    issuer: "LinkedIn Learning",
+    year: "2026",
+    description: "Learned Node.js fundamentals, backend development concepts, asynchronous programming, and server-side application building.",
+    tags: ["Node.js", "Backend Development", "JavaScript"],
+    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    link: "https://www.linkedin.com/learning/certificates/8df3e660a6101dca389803b1692cd0036c64f9e9a7a06e468fff692228753275?trk=share_certificate"
     }
 ];
 

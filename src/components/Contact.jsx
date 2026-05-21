@@ -52,7 +52,7 @@ const InstagramIcon = ({ className = "w-5 h-5" }) => (
 );
 
 export default function Contact() {
-    const emailAddress = "zaidfurkhan@gmail.com";
+    const emailAddress = "furkhanzaid30@gmail.com";
     const [copied, setCopied] = useState(false);
 
     const handleCopy = () => {
@@ -119,7 +119,7 @@ export default function Contact() {
                     <div className="flex items-center gap-4">
                         {/* LinkedIn */}
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/in/zaid-furkhan-a2ab66293?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                             target="_blank"
                             rel="noreferrer"
                             className="bg-white/60 hover:bg-white/95 hover:text-orange-600 hover:border-orange-500/40 border border-white/60 p-4 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center text-gray-700"
@@ -130,7 +130,7 @@ export default function Contact() {
 
                         {/* GitHub */}
                         <a
-                            href="https://github.com"
+                            href="https://github.com/ZaidFurkhan"
                             target="_blank"
                             rel="noreferrer"
                             className="bg-white/60 hover:bg-white/95 hover:text-orange-600 hover:border-orange-500/40 border border-white/60 p-4 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center text-gray-700"
@@ -141,7 +141,7 @@ export default function Contact() {
 
                         {/* Instagram */}
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/zaid__furkhan__?igsh=ZnU3YnVhOXhnNjEz"
                             target="_blank"
                             rel="noreferrer"
                             className="bg-white/60 hover:bg-white/95 hover:text-orange-600 hover:border-orange-500/40 border border-white/60 p-4 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center text-gray-700"
