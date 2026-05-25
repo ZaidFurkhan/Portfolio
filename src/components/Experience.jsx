@@ -11,7 +11,7 @@ export default function Experience(){
                 viewport={{ once: false, amount: 0.2 }}
                 className="flex flex-col  w-full">
                 <h2 className="text-4xl md:text-6xl text-center font-extrabold mb-16">Development Experience</h2>
-                <h4 className="text-2xl md:text-4xl text-start font-bold mb-1 cursor-pointer">Full Stack & AI/ML Developer</h4>
+                <h4 className="text-2xl md:text-4xl text-start font-bold mb-1 cursor-pointer">Full Stack & AI Developer</h4>
                 <p className="text-gray-600/90 mb-8  animate-in slide-in-from-bottom duration-800 font-medium text-xs sm:text-sm md:text-lg lg:text-xl">Personal & Academic Projects | 2024 - Present</p>
                 <p className="text-gray-700 text-base font-semibold text-start animate-in slide-in-from-bottom duration-800 max-w-5xl leading-6">Built and deployed full-stack web applications and AI-powered systems using modern web technologies. Worked on backend APIs, authentication systems, database integration, responsive frontend interfaces, and machine learning-based solutions. Experienced with React, Node.js, Flask, MongoDB, PostgreSQL, Tailwind CSS, deployment workflows, and Git/GitHub collaboration. </p>
                 </motion.div>
