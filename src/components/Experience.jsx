@@ -26,7 +26,7 @@ export default function Experience(){
                 <span className="text-orange-600/30"><ArrowUpRight className="w-5 h-5 " /></span>
                 
                 </div>
-                <button className="mt-4 bg-gray-900 hover:bg-gray-800 text-white font-bold py-2 w-fit px-4 rounded-xl"><a href="public/OAMTS_Research_Paper_Final (1).pdf" target="_blank" rel="noopener noreferrer" className="text-white font-bold py-2 px-4 rounded">
+                <button className="mt-4 bg-gray-900 hover:bg-gray-800 text-white font-bold py-2 w-fit px-4 rounded-xl"><a href="/research.pdf" target="_blank" rel="noopener noreferrer" className="text-white font-bold py-2 px-4 rounded">
                     View Publication</a>
                 </button>
                 

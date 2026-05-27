@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
+import  project1 from "../Images/project1.png";
+import  project2 from "../Images/project2.png";
+import  project3 from "../Images/project3.png";
 
 // Inline SVG Github Icon since Lucide does not ship brand icons
 const GithubIcon = ({ className = "w-4 h-4" }) => (
@@ -22,7 +25,7 @@ const projects = [
         subtitle: "AI Healthcare Assistant",
         description: "MedAssist.AI is an intelligent healthcare web application that merges predictive analytics, conversational AI, and geo-location services to simplify healthcare accessibility. It features symptom-based disease prediction, nearby specialty hospital search, appointment scheduling, and AI-generated medical insights.",
         tags: ["React", "Python", "ML","PostgreSQL", "FastAPI"],
-        image: "src/Images/project1.png",
+        image: project1,
         github: "https://github.com/ZaidFurkhan/MedAssist_Ai",
         demo: "https://medassistai-flax.vercel.app/"
     },
@@ -31,7 +34,7 @@ const projects = [
         subtitle: "AI Career Roadmap Generator",
         description: "An AI-powered professional development tool that generates personalized learning tracks and visual career paths based on industry skills.",
         tags: ["React", "Node.js", "Groq API", "TailwindCSS"],
-        image: "src/Images/project2.png",
+        image: project2,
         github: "https://github.com/ZaidFurkhan/PathForge.ai/tree/main",
         demo: "https://path-forge-ai-one.vercel.app/"
     },
@@ -40,7 +43,7 @@ const projects = [
         subtitle: "Sleek Responsive Design",
         description: "Developed a sleek and fully responsive landing page for CodeSkill.AI using React and Tailwind CSS. The project features a modern dark-themed interface, optimized performance with Vite, and reusable component-based architecture..",
         tags: [ "Tailwind CSS","Vite", "React", "Framer Motion"],
-        image: "src/Images/project3.png",
+        image: project3,
         github: "https://github.com/ZaidFurkhan/landing-page",
         demo: "https://landing-page-kx0q.onrender.com/"
     }
