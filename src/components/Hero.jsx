@@ -7,7 +7,7 @@ export default function Hero({ className }) {
                 <h2 className="font-bold text-md md:text-xl lg:text-2xl mt-1">Full-stack developer exploring AI-powered and modern web solutions.</h2>
                 <p className="text-gray-600/80 mb-2  animate-in slide-in-from-bottom duration-800 font-medium text-xs sm:text-sm md:text-lg lg:text-xl">Crafting scalable and user-focused digital experiences.</p>
                 <div className="flex gap-4">
-                    <button className="bg-black text-white w-fit px-4 mt-4 py-1.5 md:py-2 rounded-xl hover:bg-gray-800 transition-all duration-500 cursor-pointer font-bold text-sm md:text-base lg:text-lg hover:bg-gray-200/80"><a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></button>
+                    <button className="bg-gray-900 text-white w-fit px-4 mt-4 py-2 rounded-xl hover:bg-gray-800 transition-all duration-500 cursor-pointer font-bold text-sm md:text-base lg:text-lg "><a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-white font-bold py-2 px-4 rounded">Download CV</a></button>
                     
                 </div>
             </div>

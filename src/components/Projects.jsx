@@ -48,7 +48,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="projects" className="w-full min-h-screen bg-gradient-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col gap-1 items-center justify-start py-20 px-8 relative z-20 shadow-[0_30px_40px_rgba(0,0,0,0.1)]">
+        <section id="projects" className="w-full min-h-screen bg-linear-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col gap-1 items-center justify-start py-20 px-8 relative z-20 border-b border-gray-600/20">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

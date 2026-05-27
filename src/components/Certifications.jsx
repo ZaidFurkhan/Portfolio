@@ -33,7 +33,7 @@ const certifications = [
 
 export default function Certifications() {
     return (
-        <section id="certifications" className="w-full min-h-screen bg-gradient-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col items-center justify-start py-20 px-8 border-b border-gray-600/10 relative z-20 shadow-[inset_0_30px_40px_rgba(0,0,0,0.05)]">
+        <section id="certifications" className="w-full min-h-screen bg-gradient-to-r from-gray-300 via-gray-200 to-gray-50 text-black flex flex-col items-center justify-start py-20 px-8 border-b border-gray-600/20 relative z-20">
 
             <motion.div 
                 initial={{ opacity: 0, y: 20 }}
